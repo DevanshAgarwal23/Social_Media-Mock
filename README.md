@@ -37,15 +37,17 @@
 ### Posts
 
 1. **create post**
-    this will create a new post, required fields are 
-    -username (the author of this post)
-    -title 
-    -body
+    this will create a new post, required fields are  
+
+    - username (the author of this post)
+    - title 
+    - body
 
 2. **show all posts**
-    lits all xisting posts, we should have following filtering  support 
-    -filter by username
-    -filter by query contained in title (search by title)
+    lits all xisting posts, we should have following filtering  support  
+
+    - filter by username
+    - filter by query contained in title (search by title)
 
 3. **Edit post**  'TDB'
 
