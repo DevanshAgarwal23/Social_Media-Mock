@@ -29,7 +29,10 @@
 ### Users
  
 1. **create users**
-    this will create a new user with a random username
+    this will create a new user with a random username.  
+    
+    ***( In this project, we have user-identification but user-authorization and user-authentication are not there )***
+
 
 ### Posts
 
