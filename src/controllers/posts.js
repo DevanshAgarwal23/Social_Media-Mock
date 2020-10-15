@@ -14,7 +14,7 @@ async function createNewPost(userId,title,body) {
 *  showAllPosts({username: ''})
 *  showAllPosts({title: ''})
 */
-async function showAllPosts(query) {
+async function findAllPosts(query) {
     //todo: handel query params
     const posts = await Posts.findAll({
         include: [Users]
@@ -53,7 +53,7 @@ async function showAllPosts(query) {
     //     'Some body example here as well'
     //   )
     // )
-//     const posts = await showAllPosts()
+//     const posts = await findAllPosts()
 //     for (let p of posts) {
 //       console.log(`${p.title}\n author: ${p.user.username}\n${p.body}\n==========\n`)
 //     }
@@ -62,5 +62,5 @@ async function showAllPosts(query) {
 
 module.exports = {
     createNewPost,
-    showAllPosts
+    findAllPosts
 }

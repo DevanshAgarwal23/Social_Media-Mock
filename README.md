@@ -13,11 +13,25 @@
 
 ## Project Structure
 ```
-    src
-    ├── controllers   // fuctions to connect routes to db
-    ├── db            // db connection and model defination
-    ├── public        // html/js/css files for frontend part
-    └── routes        // middlewares , route wise
+   src
+    ├── controllers             # function to connect to db
+    │   ├── comments.js
+    │   ├── posts.js
+    │   └── users.js
+    ├── db                      # database connection and model defination 
+    │   └── models.js
+    ├── public                  # html/css/js files of frontend part
+    │   └── index.html
+    ├── routes                  # middlewares (route wise)
+    │   ├── posts
+    │   │   ├── comments.js
+    │   │   └── index.js
+    │   └── users
+    │       └── index.js
+    ├── server.js               # express server 
+    └── utils                   # util function of the project
+        └── username.js
+
 ```
 
 
