@@ -1,0 +1,18 @@
+{
+  "name": "social-media-app",
+  "version": "1.0.0",
+  "description": "## Database setup ```shell     $ mysql -u root -p ``` ```mysql     CREATE DATABASE socialmediadb;     CREATE USER socialuser IDENTIFIED WITH mysql_native_password BY 'socialpass';     GRANT ALL PRIVILEGES ON socialmediadb.* TO socialuser;     FLUSH PRIVILEGES; ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {}
+}
