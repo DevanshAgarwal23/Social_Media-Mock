@@ -12,7 +12,9 @@
 ```
 
 ## Project Structure
-```
+
+### Server Side
+```shell
     src
     ├── controllers         # function to connect to database(db)
     ├── db                  # database connection and model defination
@@ -22,7 +24,25 @@
     │   └── users
     └── utils               # util functions for the project
 ```
-
+### Client Side
+```shell
+    src/public 
+    ├── app                                 # our own frontend js code 
+    │   └── social-common.js
+    ├── components                          # our own html snippets
+    │   └── navbar.html
+    ├── css                                 # css libraries we are using
+    │   └── bootstrap.css
+    ├── fonts                               # fonts we are using
+    │   ├── muli.css
+    │   ├── Muli-Italic.woff2
+    │   └── Muli.woff2
+    ├── index.html                          # home / first page
+    └── js                                  # js libraries we are using 
+        ├── bootstrap.js
+        ├── jquery-3.5.1.js
+        └── popper.js
+```
 
 ## Business Logic
  
