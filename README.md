@@ -61,3 +61,37 @@
 2. **show all comments (under a post)**
 
 3. **add a comment**
+
+
+## API Documentation
+
+### `users`
+
+1. `POST /users`
+
+    Creates a new user with random username and an userId
+
+2. `GET /users/{userid}`
+
+    Get an user with a given userId (if exists)
+
+3. `GET /users/{username}`
+
+    Get an user with given username (if exists)
+
+## `posts`
+
+1. `POST /posts`
+
+    Creates new posts.
+    Fields required in body -
+    
+    ```
+    userID - Foreign key for the posts table, which links with users table (basically tells about the author of post) 
+    title  - Title osf the post given by author
+    body   - The main body of the post
+    ```
+
+2. `GET /posts`
+
+    Get all posts by everyone
