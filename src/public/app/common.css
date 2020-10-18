@@ -1,3 +1,4 @@
+
 #navbar{
     position: sticky;
     top: 0px;
@@ -5,17 +6,17 @@
 }
 
 
+#content{
+    min-height: 73vh;
+    /* height: 550px; */
+    z-index: 0;
+}
+
 #footer{
     padding-top: 2rem ;
     padding-bottom: 1rem;
-    /* position: sticky; */
-    bottom: 0px;
     background-color: var(--light);
+    z-index: 1;
     position: static;
-}
 
-
-#content{
-    height: 500px;
-    z-index: 0;
 }
