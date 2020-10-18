@@ -28,7 +28,7 @@
 ```shell
     src/public 
     ├── app                                 # our own frontend js code 
-    │   └── social-common.js
+    │   └── common.js  
     ├── components                          # our own html snippets
     │   └── navbar.html
     ├── css                                 # css libraries we are using
