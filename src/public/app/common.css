@@ -1,6 +1,7 @@
 #navbar{
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 
@@ -10,9 +11,11 @@
     /* position: sticky; */
     bottom: 0px;
     background-color: var(--light);
+    position: static;
 }
 
 
 #content{
-    height: 2000px ;
+    height: 500px;
+    z-index: 0;
 }
